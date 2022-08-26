@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 * {
 
   box-sizing: border-box;
@@ -7,7 +9,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: black;
   color: white;
 }
@@ -101,7 +103,7 @@ section img {
   width: calc(100vw - 5em);
   height: 60vh;
   background-image: url(./img/hr1.png);
-  background-color: #202020;
+  background-color: #fff;
   background-position: center;
   background-size: contain;
   background-repeat: repeat;
