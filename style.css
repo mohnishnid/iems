@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 * {
-
   box-sizing: border-box;
 }
 
@@ -9,13 +8,20 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
-  background-color: #f3e8d7;
+  font-family: "Inter", sans-serif;
+  background-color: white;
   color: black;
 }
 
 img {
   mix-blend-mode: multiply;
+  width: 80%;
+}
+.al_c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -60,20 +66,15 @@ a {
 
 a.active {
   color: coral;
-
 }
 
 a:hover {
   color: coral;
   opacity: 0.8;
-
-
 }
 
 a:active {
   color: coral;
-
-
 }
 
 canvas {
@@ -97,8 +98,6 @@ header nav a {
   margin-left: 1em;
 }
 
-
-
 section.light {
   padding-top: 5em;
   display: flex;
@@ -118,9 +117,7 @@ section.hori {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-
 }
-
 
 section.center {
   padding: 5vw;
@@ -130,7 +127,6 @@ section.center {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-
 }
 
 section.center img {
@@ -160,43 +156,39 @@ section.center img {
   width: 100%;
 }
 
-
-
 .range1 {
-  background-color: #D6424B50;
+  background-color: #d6424b50;
   border-radius: 10px;
 }
 
 .range2 {
-  background-color: #FDBE7050;
+  background-color: #fdbe7050;
   border-radius: 10px;
 }
 
 .range3 {
-  background-color: #F0F8A950;
+  background-color: #f0f8a950;
   border-radius: 10px;
 }
 
 .range4 {
-  background-color: #77C6A750;
+  background-color: #77c6a750;
   border-radius: 10px;
 }
 
 .range5 {
-  background-color: #438FB450;
+  background-color: #438fb450;
   border-radius: 10px;
 }
 
 .range6 {
-  background-color: #486FB050;
+  background-color: #486fb050;
   border-radius: 10px;
 }
-
 
 .hero_img img {
   margin-top: 2em;
   width: 100%;
-
 
   border-radius: 50px;
 }
@@ -211,7 +203,7 @@ iframe {
   border: none;
   border-radius: 50px;
   font-size: 1vw;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 20px;
   margin: 1em;
   width: 200px;
@@ -237,14 +229,12 @@ iframe {
 }
 
 .button:hover {
-
   background: #303030;
-
 }
 
 .button:active:after {
   padding: 0;
   margin: 0;
   opacity: 1;
-  transition: 0s
+  transition: 0s;
 }
